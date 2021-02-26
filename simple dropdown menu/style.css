@@ -1,4 +1,4 @@
-/* Сайт с инструкцией по выпадающему меню: https://catalin.red/css3-dropdown-menu/; */
+/* Thanks for watching my project */
 
 /* Main */
 
@@ -42,7 +42,7 @@
 	display: block;
 }
 
-/* Подменю */
+/* Sub-menu */
 
 #menu ul {
 	list-style: none;
@@ -121,7 +121,7 @@
 	border-radius: 0 0 5px 5px;
 }
 
-/* Очистка float-элементов */
+/* Clear Float */
 
 #menu:after {
 	visibility: hidden;
@@ -132,5 +132,5 @@
 	height: 0;
 }
 
-*html #menu 			 { zoom: 1; } /* IE6 */
+*html #menu 		 { zoom: 1; } /* IE6 */
 *:first-child+html #menu { zoom: 1; } /* IE7 */
